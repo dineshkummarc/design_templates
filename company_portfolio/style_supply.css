@@ -1,0 +1,21 @@
+#description_about
+{
+	-moz-border-radius: 15px;
+}
+.bg_title
+{
+	-moz-border-top-left-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+}
+#description_skills
+{
+	-moz-border-radius: 15px;
+}
+#description_portfolio
+{
+	-moz-border-radius: 15px;
+}
+#description_contacts
+{
+	-moz-border-radius: 15px;
+}

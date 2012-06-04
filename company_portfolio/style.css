@@ -1,0 +1,530 @@
+@charset "utf-8";
+body
+{
+	margin: 0;
+	min-width: 980px;
+	padding: 0;
+	background-color:#060606;
+	background-image: url(firstBG.jpg);
+	background-position:top;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+#nav ul
+{
+	font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-size-adjust:0.488;
+	font-weight:200;
+	font-style:normal;
+}
+img
+{
+	border: 0;
+}
+#nav
+{
+	list-style: none;
+	position: fixed;
+	right: 20px;
+	z-index:999;
+}
+#nav li
+{
+	margin: 0 0 15px 0;
+	width:16px;
+	height:16px;
+	overflow:hidden;
+}
+.block_nav
+{
+	position:relative;
+	width:16px;
+	height:16px;
+}
+#nav_intro
+{
+	background-image:url(http://www.vbvweb.it/images/ico/index.png);
+}
+#nav_intro
+{
+	background-image:url(http://www.vbvweb.it/images/ico/index.png);
+}
+#nav_about
+{
+	background-image:url(http://www.vbvweb.it/images/ico/about.png);
+}
+#nav_skills
+{
+	background-image:url(http://www.vbvweb.it/images/ico/skills.png);
+}
+#nav_portfolio
+{
+	background-image:url(http://www.vbvweb.it/images/ico/portfolio.png);
+}
+#nav_contacts
+{
+	background-image:url(http://www.vbvweb.it/images/ico/contacts.png);
+}
+.content
+{
+	position:relative;
+	margin-left:40px;
+	margin-right:40px;
+	margin-top:60px;
+	margin-bottom:60px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#cccccc;
+}
+#intro
+{
+	color: white;
+	height: 1024px;
+	margin: 0 auto;
+	overflow: hidden;
+	background-image:url(http://www.vbvweb.it/images/background/index.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+#cup
+{
+	position:absolute;
+	width: 191px;
+	height:490px;
+	left:50%;
+	margin-left:-230px;
+	margin-top:0px;
+	background-image:url(http://www.vbvweb.it/images/firstBG_cup.png);
+	background-repeat:no-repeat;
+	background-position:0 265px;
+	z-index:3;
+}
+#gessetto
+{
+	position:absolute;
+	width: 72px;
+	height:490px;
+	left:50%;
+	margin-left:-320px;
+	margin-top:0px;
+	background-image:url(http://www.vbvweb.it/images/firstBG_gessetto.png);
+	background-repeat:no-repeat;
+	background-position:0 437px;
+	z-index:3;
+}
+#mensola
+{
+	position:absolute;
+	width: 838px;
+	height:1024px;
+	left:50%;
+	margin-left:-419px;
+	margin-top:0px;
+	background-image:url(http://www.vbvweb.it/images/firstBG_mensola.png);
+	background-repeat:no-repeat;
+	background-position:0 420px;
+	z-index:1;
+}
+#lavagna
+{
+	position:absolute;
+	width:396px;
+	height:440px;
+	left:50%;
+	margin-left:-450px;
+	background-image:url(http://www.vbvweb.it/images/firstBG_lavagna.png);
+	background-repeat:no-repeat;
+	background-position:0 20px;
+	z-index:2;
+}
+#cofanetto
+{
+	position:absolute;
+	width:375px;
+	height:490px;
+	left:50%;
+	margin-left:-80px;
+	background-image:url(firstBG_cofanetto.png);
+	background-repeat:no-repeat;
+	background-position:0 125px;
+	z-index:2;
+}
+#second
+{
+	color: white;
+	height: 1024px;
+	margin: 0 auto;
+	overflow: hidden;
+	background-image:url(http://www.vbvweb.it/images/background/about.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+#first_about
+{
+	position:relative;
+	width:296px;
+	height:137px;
+	left:50%;
+	margin-left:-357px;
+	top:95px;
+	z-index:2;
+}
+#second_about
+{
+	position:relative;
+	width:296px;
+	height:137px;
+	left:50%;
+	margin-left:-357px;
+	top:112px;
+	z-index:2;
+}
+#third_about
+{
+	position:relative;
+	width:296px;
+	height:137px;
+	left:50%;
+	margin-left:-357px;
+	top:129px;
+	z-index:2;
+}
+#description_about
+{
+	position:relative;
+	width:710px;
+	height:auto;
+	overflow:hidden;
+	left:50%;
+	margin-left:-355px;
+	top:147px;
+	background-image:url(http://www.vbvweb.it/images/bg_content.png);
+	border-radius: 15px;
+}
+.bg_title
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:45px;
+	background-color:#3b7a4f;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	text-align:center;
+}
+img.title
+{
+	position:relative;
+	margin-top:10px;
+}
+.vite_topleft
+{
+	position:absolute;
+	top:8px;
+	left:-2px;
+	height:43px;
+	width:46px;
+	background-image:url(http://www.vbvweb.it/images/vite.png);
+}
+.vite_topright
+{
+	position:absolute;
+	top:8px;
+	right:-2px;
+	height:43px;
+	width:46px;
+	background-image:url(http://www.vbvweb.it/images/vite.png);
+}
+.vite_bottomleft
+{
+	position:absolute;
+	bottom:-3px;
+	left:-2px;
+	height:43px;
+	width:46px;
+	background-image:url(http://www.vbvweb.it/images/vite.png);
+}
+.vite_bottomright
+{
+	position:absolute;
+	bottom:-3px;
+	right:-2px;
+	height:43px;
+	width:46px;
+	background-image:url(http://www.vbvweb.it/images/vite.png);
+}
+#third
+{
+	color: white;
+	height: 1024px;
+	margin: 0 auto;
+	overflow: hidden;
+	background-image:url(http://www.vbvweb.it/images/background/all.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+#description_skills
+{
+	position:relative;
+	width:710px;
+	height:400px;
+	overflow:hidden;
+	left:50%;
+	margin-left:-355px;
+	top:50%;
+	margin-top:-200px;
+	background-image:url(http://www.vbvweb.it/images/bg_content.png);
+	border-radius: 15px;
+}
+#description_skills ul li
+{
+	margin-bottom:20px;
+}
+#fourth
+{
+	color: white;
+	height: 1024px;
+	margin: 0 auto;
+	overflow: hidden;
+	background-image:url(http://www.vbvweb.it/images/background/all.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+#description_portfolio
+{
+	position:relative;
+	width:710px;
+	height:400px;
+	overflow:hidden;
+	left:50%;
+	margin-left:-355px;
+	top:50%;
+	margin-top:-200px;
+	background-image:url(http://www.vbvweb.it/images/bg_content.png);
+	border-radius: 15px;
+}
+#fifth
+{
+	color: white;
+	height: 1024px;
+	margin: 0 auto;
+	overflow: hidden;
+	background-image:url(http://www.vbvweb.it/images/background/all.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+#description_contacts
+{
+	position:relative;
+	width:710px;
+	height:400px;
+	overflow:hidden;
+	left:50%;
+	margin-left:-355px;
+	top:50%;
+	margin-top:-200px;
+	background-image:url(http://www.vbvweb.it/images/bg_content.png);
+	border-radius: 15px;
+}
+#validator
+{
+	position:absolute;
+	bottom:8px;
+	left:50%;
+	width:88px;
+	height:31px;
+	margin-left:-44px;
+}
+#slider
+{
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: 5px solid #fff;
+	border-radius: 5px;
+}
+.slide
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#next
+{
+	position:absolute;
+	right:0px;
+	bottom:5px;
+	height:35px;
+	width:25px;
+	cursor:pointer;
+}
+#prev
+{
+	position:absolute;
+	left:0px;
+	bottom:5px;
+	height:35px;
+	width:25px;
+	cursor:pointer;
+}
+.img_next
+{
+	cursor:pointer;
+}
+.caption {
+	position: absolute;
+	bottom: -42px;
+	width: 100%;
+	background: #222;
+	background: rgba(280,280,280,0.8);
+	color: #292929;
+	border-top: 1px solid #ffffff;
+	font-size:13px;
+	text-align:center;
+	text-transform:uppercase;
+}
+.caption p {
+	padding: 0px 10px;
+}
+.column1
+{
+	position:absolute;
+	width:250px;
+	height:182px;
+	left:5px;
+	top:50px;
+}
+.column2
+{
+	position:absolute;
+	width:300px;
+	height:182px;
+	right:30px;
+	top:50px;
+}
+.footer_column
+{
+	position:absolute;
+	width:570px;
+	height:50px;
+	top:250px;
+	left:50%;
+	margin-left:-285px;
+	text-align:right;
+}
+input.text
+{
+	width:250px;
+	height:30px;
+	border:1px solid #cccccc;
+	line-height:30px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+textarea.text
+{
+	width:300px;
+	height:156px;
+	border:1px solid #cccccc;
+	margin-top:15px;
+	margin-bottom:15px;
+	resize:none;
+	margin-top:5px;
+}
+.dialog-message
+{
+	font-size:14px;
+}
+/*---------------MAIN MENU---------------*/
+#main_menu
+{
+	position:absolute;
+	top:500px;
+	left:50%;
+	margin-left:-380px;
+	height:45px;
+	width:760px;
+	z-index:2;
+	font-size:20px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#main_menu ul
+{
+	position:relative;
+	height:45px;
+	width:760px;
+	margin-top:0px;
+	margin-left:0px;
+	padding:0;
+	z-index:3;
+}
+#main_menu ul li
+{
+	position:relative;
+	float:left;
+	margin-right:25px;
+	margin-top:12px;
+	display:block;
+	z-index:3;
+}
+#main_menu ul li:hover
+{
+	color:#00a620;
+}
+#main_menu ul li a
+{
+	color:#ffffff;
+	text-shadow: 1px -1px 1px #000;
+}
+#main_menu ul li a:hover
+{
+	color:#00a620;
+}
+a:LINK
+{
+	text-decoration:none;
+	cursor:pointer;
+}
+a.link_1:link
+{
+	color:#000000;
+	text-decoration:none;
+}
+a.link_1:active
+{
+	color:#000000;
+}
+a.link_1:visited
+{
+	color:#000000;
+}
+a.link_1:hover
+{
+	text-decoration:underline;
+	cursor:pointer;
+}
+img.stick_fb
+{
+	position:absolute;
+	right:60px;
+	top:-2px;
+	cursor:pointer;
+	z-index:4;
+}
+img.stick_contacts
+{
+	position:absolute;
+	right:0px;
+	top:-2px;
+	cursor:pointer;
+	z-index:4;
+}
+#fb_share
+{
+	position:absolute;
+	right:130px;
+	top:11px;
+	z-index:4;
+}
